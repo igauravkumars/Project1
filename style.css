@@ -1,0 +1,292 @@
+#navbar{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-links-logo-container{
+    display: flex;
+    gap:30px;
+    padding: 10px;
+    width: 100%;
+}
+
+#nav-logo{
+    padding:10px;
+}
+#nav-logo img{
+   width: 100px;
+   height:30;
+}
+
+
+
+
+#nav-links{
+    display: flex;
+    gap: 25px;
+}
+#nav-links>p>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size:17px;
+}
+#nav-links>p>a>button{
+    border: none;
+    background-color: #FF6F61;
+    color: white;
+    font-size:10px;
+   
+}
+#nav-links>p>a>button:hover{
+    cursor: pointer;
+}
+
+
+
+
+#nav-login-cart-container{
+    display: flex;
+    
+}
+#nav-login{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+#nav-login p a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-cart>a>img{
+   width:70px;
+   height:70px;
+}
+#nav-help{
+    padding: 10px;
+}
+#nav-help p a{
+    color: black;
+    text-decoration: none;
+}
+
+#navbar-2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  
+    
+}
+#navbar2-inputs{
+    width:96%;
+    display: flex;
+    gap:10px;
+    margin-left:18px;
+    
+}
+#navbar2-quick-order{
+    display: flex;
+    gap:20px;
+    justify-items: end;
+    
+}
+#quick-btn>button{
+    width:140px;
+    height:40px;
+    background-color: #FF6F61;
+    border: none;
+    border-radius:5px;
+
+
+}
+#navbar2-location{
+    padding:12px;
+}
+#navbar2-location>input{
+    width:250px;
+    height:40px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+}
+#navbar2-location>button>img{
+    width: 20px;
+    height: 20px;;
+}
+#search{
+    padding:12px;
+}
+#search>input{
+ width:650px;
+ height:40px;
+ border: none;
+ outline: none;
+ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ 
+}
+#search>button{
+    position: absolute;
+    left:938px;
+    margin-top:5px;
+    border: none;
+    background-color: white;
+}
+#search>button>img{
+    width:18px;
+    height: 20px;
+   
+   
+
+}
+/* #navbar2-location>.front-btn>img{
+    width:14px;
+    height:25px;
+} */
+/* .front-btn{
+    position: absolute;
+    left:45px;
+    background-color: white;
+    margin-top:10px;
+    border:none;
+   
+} */
+.back-btn{
+    position: absolute;
+    left:258px;
+    border:none;
+    margin-top:8px;
+    background-color: white;
+}
+#offer{
+    padding:5px;
+}
+#offer>p{
+    font-size:15px;
+}
+#quick-btn{
+    padding:12px;
+}
+#drop-down{
+    display: flex;
+    justify-content: space-around;
+}
+#drop-down>div>select{
+    height:30px;
+    width:fit-content;
+}
+
+#container{
+    width:100%;
+    display: flex;
+}
+#container>div>img{
+    width: 100%;
+    height:250px;
+}
+#one-line{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    height: auto;
+    padding-bottom:5px;
+   
+}
+#gumlet{
+    width:97.5%;
+    height:180px;
+    padding:20px;
+    background-color:#F6F6F6;
+    margin: auto;
+    text-align: center;
+}
+#gumlet>div>img{
+    width:90%;
+    
+}
+#shop-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding:12px;
+    
+}
+#shop-card>div>img{
+     width:180px;
+
+}
+#shop-card>div>p{
+    text-align: center;
+}
+
+#Featured-brands{
+   width:95%;
+}
+#Featured-brands>div{
+    margin-left:70px;
+}
+
+#Featured-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding:12px;
+}
+#Featured-card>div>img{
+    width:180px;
+
+}
+#Calcium-supplement{
+    width:95%;
+}
+#Calcium-supplement>div{
+    margin-left:70px;
+}
+#Calcium-supplement-card{
+    border:1px solid;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+   
+   
+}
+#Calcium-supplement-card>div{
+    width:40%
+}
+#Calcium-supplement-card>div>img{
+   width:100%;
+   height:100%;
+}
+#Calcium-supplement-card>div>p{
+    text-wrap: wrap;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#FFFCF8;
+}
+#icons>img{
+  width:38px;
+  height:38px;
+}
+
+#play{
+   width:90px;
+   height:60px;
+}
+
+#app{
+    width:90px;
+    height:40px;
+}
+#btn-sign{
+    background-color:#FF6F61;
+    width:120px;
+    height:40px;
+    border: none;
+}
+
